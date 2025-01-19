@@ -36,12 +36,14 @@ let menuIl = document.querySelectorAll('.headerUl_wrap > ul>li')
             let sliderWrap = document.querySelector('.sliderWrap')
             slideIndex = 0;
             marginLeftNum = 1200;
+            firstImg = 
 
             setInterval(() => {
                 sliderWrap.style.marginLeft = -marginLeftNum * slideIndex+"px";
                 slideIndex++;
                 if (slideImg.length+1 == slideIndex) {
                     slideIndex = 0;
+                    sliderWrap
                 }
             },1000);
     })
