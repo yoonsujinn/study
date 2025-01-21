@@ -34,18 +34,20 @@ let menuIl = document.querySelectorAll('.headerUl_wrap > ul>li')
 
             let slideImg = document.querySelectorAll('.sliderWrap .slideImg')
             let sliderWrap = document.querySelector('.sliderWrap')
+            let slideImgClon = sliderWrap.firstChild.cloneNode(true)
             slideIndex = 0;
-            marginLeftNum = 1200;
-            firstImg = 
+    console.log(slideImgClon)
 
             setInterval(() => {
-                sliderWrap.style.marginLeft = -marginLeftNum * slideIndex+"px";
                 slideIndex++;
-                if (slideImg.length+1 == slideIndex) {
+                sliderWrap.style.transition = "0.3s"
+                sliderWrap.style.marginLeft = slideIndex*(-1200)+"px";
+                if (slideImg.length == slideIndex) {
                     slideIndex = 0;
-                    sliderWrap
+                    sliderWrap.style.marginLeft = "-0px";
+                    
                 }
-            },1000);
+            },3000);
     })
 
 
