@@ -1,0 +1,29 @@
+p {
+/* m10-20 */
+margin: 10px 20px;
+
+/* m-30-auto-0 */
+margin: 30px auto 0;
+
+/* p10-30 */
+padding: 10px 20px;
+
+/* w100 */
+width: 100px;
+
+/* h100 */
+height: 100px;
+
+/* t100 */
+top: 100px;
+
+
+/* l200 */
+left: 200px;
+
+/* r55 */
+right: 55px;
+
+/* ls2 */
+letter-spacing: 2px;
+}
