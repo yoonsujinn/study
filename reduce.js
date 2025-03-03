@@ -4,7 +4,7 @@ array = [1,2,3,4,5]
 // ------------------------------------------------
 //배열 전체값을 더하는 프로그램
 // let updateAcc = array.reduce((acc,curr,index,array)=> {
-//     return acc+curr;
+    // return acc+curr;
 // },0)
 // console.log(updateAcc)
 
@@ -19,7 +19,6 @@ array = [1,2,3,4,5]
 
 let numLog = [0, 1, 0, 10, 0, 1, 0, 10, 0, -1, -2, -1]
 let answer ='';
-
 let car = numLog.reduce((acc,ele) => opration(acc,ele),0);
 //reduce에서 opration 함수를 호출해서 동작을 분리
 
