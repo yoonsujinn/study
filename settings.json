@@ -1,0 +1,70 @@
+{
+    "editor.fontSize": 17,
+    "editor.linkedEditing": true,
+    "settingsSync.ignoredExtensions": [
+        "github.codespaces",
+        "github.vscode-pull-request-github",
+        "johnstoncode.svn-scm",
+        "qingqingzhao.svnhelper",
+        "beardedbear.beardedtheme",
+        "alefragnani.project-manager"
+    ],
+    "git.enableSmartCommit": true,
+    "editor.minimap.autohide": true,
+    "editor.guides.bracketPairs": true,
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.mouseWheelZoom": true,
+    "workbench.activityBar.location": "bottom",
+    "terminal.integrated.fontSize": 15,
+    "git.confirmSync": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.tokenColorCustomizations": {
+        "comments": "#ffd7eecc"
+    },
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#fdcff2", // 활성화된 제목 표시줄 배경색 
+        "statusBar.background": "#fdcff2", // 상태 표시줄 배경색 
+        "titleBar.activeForeground": "#360e3a", // 활성화된 제목 표시줄 글자 색 
+        "statusBar.foreground": "#360e3a", // 상태 표시줄 글자 색 
+        "sideBar.background": "#000000", // 사이드바 배경색 
+        "editor.background": "#000000", // 에디터 배경색 
+        "tab.activeBackground": "#250f30", // 활성 탭 배경색 
+        "tab.activeForeground": "#ffffff", // 활성 탭 글자 색 
+        "tab.inactiveBackground": "#1f1f1f", // 비활성 탭 배경색 
+        "tab.inactiveForeground": "#cccccc", // 비활성 탭 배경색 
+    },
+    "editor.codeActionsOnSave": {},
+    "TortoiseSVN.path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\TortoiseSVN",
+    "editor.stickyScroll.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "notebook.formatOnSave.enabled": true,
+    "diffEditor.experimental.showEmptyDecorations": false,
+    // "editor.formatOnPaste": true,
+    "explorer.confirmDelete": false,
+    "workbench.editor.autoLockGroups": {
+        "imagePreview.previewEditor": true,
+        "vscode.videoPreview": true,
+        "vscode.audioPreview": true
+    },
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "editor.minimap.maxColumn": 50,
+    "indentRainbow.colors": [
+        "rgba(190,140,230,0.1)",
+        "rgba(190,140,230,0.2)",
+        "rgba(190,140,230,0.3)",
+        "rgba(190,140,230,0.35)",
+        "rgba(190,140,230,0.4)",
+        "rgba(190,140,230,0.45)",
+        "rgba(190,140,230,0.5)",
+        "rgba(190,140,230,0.55)",
+        "rgba(190,140,230,0.6)",
+        "rgba(190,140,230,0.65)",
+        "rgba(190,140,230,0.7)",
+        "rgba(190,140,230,0.8)",
+        "rgba(190,140,230,0.9)",
+        "rgba(190,140,230,1)",
+    ],
+    "workbench.colorTheme": "Pink Cat Boo",
+    "workbench.iconTheme": "vscode-icons"
+}
