@@ -165,6 +165,7 @@
   .contentWrap .content_left {
     align-items: flex-start;
     flex-direction: column;
+    justify-content: space-between;
     padding: 5px;
   }
   
@@ -224,7 +225,7 @@
     background-position: top left;
   
   }
-  .slideBtnWrap {display: flex;margin: 20px auto 0;}
+  .slideBtnWrap {display: flex;margin: 0px auto 10px;}
   .slideBtn_dotWrap{
     display: flex;
     align-items: center;
@@ -241,13 +242,21 @@
   }
   .slideBtn_dotWrap > li.on{
     background: #f39a9a;
+    cursor: auto;
+    pointer-events: none;
   }
   
   .slideBtnWrap .next,
   .slideBtnWrap .prev {
     width: 59px;
     height: 27px;
+    pointer-events: none;
+  }
+
+  .slideBtnWrap .next.on,
+  .slideBtnWrap .prev.on {
     cursor: pointer;
+    pointer-events:all;
   }
   .slideBtnWrap .next {
     background: url(../images/iconImg/nextButton_off.png) center / contain no-repeat;
@@ -255,7 +264,6 @@
   .slideBtnWrap .next.on {
     background: url(../images/iconImg/nextButton_on.png) center / contain no-repeat;
   }
-    
   .slideBtnWrap .prev {
     background: url(../images/iconImg/prevButton_off.png) center / contain no-repeat;
   }
