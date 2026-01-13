@@ -13,16 +13,15 @@ document.addEventListener("DOMContentLoaded",function() {
     const audio_1 = new Audio(audio_arr[0]);
     let trackNum = 0; // 현재 재생중인 음원 번호
 
- 
     bu1.addEventListener('click',function(){
-        audio_1.play();
+        audio_1.play(); //음원 1개 재생
     })
 
     bu2.addEventListener('click',function() {
         playList();
     })
 
-    function playList() {
+    function playList() { //음원 연속으로 재생
         if(audio_arr.length > trackNum) {
             let playMusic = new Audio(audio_arr[trackNum])
             playMusic.play();
