@@ -10,8 +10,14 @@ let arr1 = [
 let tennisPeople = arr1.filter (
     (item) => item.hobby === "테니스"
 )
-
 // console.log(tennisPeople)
+
+let arr1_1 = ['배열0','배열1','배열2','배열3','배열4','배열5','배열6']
+let arr1_1_filter = arr1_1.filter (
+  (item,idx) => idx%2 == 0
+)
+console.log(arr1_1_filter)
+  
 
 // 2. map
 // 배열의 모든 요소를 순회하면서 각각 콜백함수를 실행하고 결과값들을 모아서 배열로반환한다.
@@ -59,4 +65,4 @@ let join1 = arr6.join()
 let join2 = arr6.join('')
 let join3 = arr6.join('-')
 let join4 = arr6.join('+')
-console.log(join1,join2,join3,join4)
+// console.log(join1,join2,join3,join4)
