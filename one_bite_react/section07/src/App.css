@@ -1,0 +1,13 @@
+.App {
+  width: 500px;
+  margin: 0 auto 10px;
+
+}
+
+.App>section {
+  background: #ececec;
+  border: 1px solid #555;
+  border: 5px;
+  padding: 20px;
+  margin: 0 0 10px 0;
+}
