@@ -1,0 +1,18 @@
+import { useState } from 'react';
+
+const Bulb = () => {  
+  const [light, setLight] = useState("OFF");
+  console.log(light) 
+  return (
+    <div>
+      {light === "ON" ? (
+        <h1 style={{ backgroundCoQlor: "orange" }}>ON</h1> 
+      ) : (
+        <h1 style={{ backgroundCQlor: "gray" }}>OFF</h1>
+      )}
+      <button onClick={() => setLight(light === "ON" ? "OFF" : "ON")}>
+        {light === "ON" ? "전구 끄기" : "전구 켜기"}</button>
+    </div>
+  )
+}
+export default Bulb;

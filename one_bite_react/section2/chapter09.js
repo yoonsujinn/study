@@ -16,7 +16,7 @@ let arr1_1 = ['배열0','배열1','배열2','배열3','배열4','배열5','배�
 let arr1_1_filter = arr1_1.filter (
   (item,idx) => idx%2 == 0
 )
-console.log(arr1_1_filter)
+// console.log(arr1_1_filter)
   
 
 // 2. map
@@ -27,7 +27,7 @@ let arr2= [1,2,3]
 let arr2_map = arr2.map((item,idx,arr) => {
     return item*2;
 })
-// console.log(arr2_map)
+console.log(arr2_map)
 
 //map 메서드로 arr1배열의 name키의 값을 모아서 새로운 배열로 반환하여 찍어보려고한다.
 let names = arr1.map((item) => item.name);
